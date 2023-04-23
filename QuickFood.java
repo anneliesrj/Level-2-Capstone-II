@@ -59,11 +59,11 @@ public class QuickFood {
 
         
         
-     // Read the drivers.txt file and check for the driver's location
+     // Read the drivers-info.txt file and check for the driver's location
         List<Driver> drivers = new ArrayList<>();
         
         try {
-            String driversFilePath = "drivers.txt";
+            String driversFilePath = "drivers-info.txt";
             Scanner driverScanner = new Scanner(new File(driversFilePath));
             while (driverScanner.hasNextLine()) {
                 String line = driverScanner.nextLine();
